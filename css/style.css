@@ -1,0 +1,31 @@
+a {
+	text-decoration: none;
+		color: black;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 100px;
+	height: 41px;
+}
+
+.menu{
+	float: left;
+	padding-left: 100px;
+}
+
+.menu li{
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	padding-left: 1.367521367521368%;
+	padding-right: 12px;
+	line-height: 41px;
+}
+
+.menu ul li:first-child{
+	padding-left: none;
+}
