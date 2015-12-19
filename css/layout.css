@@ -1,102 +1,102 @@
 .main-wrp{
-	width: 100%;
+	width:100%;
+	background: white;
 }
 
 .header-wrp{
 	width: 100%;
-	height: 101px;
 	background: white;
 }
 
 .header-container{
 	max-width: 120em;
 	margin: 0 auto;
-	background: green;
-	height: 100px;
+	background: white;
 }
 
 .header{
 	max-width: 73.125em;
 	margin: 0 auto;
-	background: blue;
+	padding-top: 24px;
+	padding-bottom: 36px;
+	background: white;
 }
 
 .slider-wrp{
 	width: 100%;
-	height: 707px;
 	background: gray;
 }
 
 .slider-container{
-	max-width: 120em;
+	max-width: 100%;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
+	height: 707px;
 }
 
-.banner1-wrp{
+.banner-wrp{
 	width: 100%;
-	height: 158px;
-	background: #e5493a;
+	background-color: #e5493a;
 }
 
-.banner1-container{
+.banner-container{
 	max-width: 120em;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
+}
+
+.banner{
+	padding-top: 40px;
+	padding-bottom: 56px;
 }
 
 .services-wrp{
 	width: 100%;
-	height: 399px;
-	background: white;
 }
 
 .services-container{
 	max-width: 120em;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
+	background: white;
+}
+
+.services-grp{
+	max-width: 73.125em;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .counter-wrp{
 	width: 100%;
-	height: 324px;
-	background: black;
+	background: #363636;
 }
 
 .counter-container{
 	max-width: 120em;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
+	padding-bottom: 65px;
+}
+
+.counters-grp{
+	padding-top: 77px;
+	max-width: 73.125em;
+	margin: 0 auto;
 }
 
 .blogposts-wrp{
 	width: 100%;
-	height: 810px;
-	background: white;
 }
 
 .blogposts-container{
 	max-width: 120em;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
+	background: white;
 }
 
-.banner2-wrp{
-	width: 100%;
-	height: 305px;
-	background: #e5493a;
-}
-
-.banner2-container{
-	max-width: 120em;
+.blogposts-grp{
+	padding-top: 40px;
+	padding-bottom: 104px;
+	max-width: 73.125em;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
 }
 
 .footer-wrp{
@@ -108,6 +108,5 @@
 .footer-container{
 	max-width: 120em;
 	margin: 0 auto;
-	background: green;
-	height: 20px;
+	height: 518px;
 }
