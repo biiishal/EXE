@@ -17,6 +17,7 @@ a {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .desc p{
@@ -28,8 +29,13 @@ a {
 	padding-bottom: 32px;
 	padding-left: 4px;
   padding-right: 4px;
+  overflow: hidden;
 	/*padding-left: 19px;
 	padding-right: 20px;*/
+}
+
+.number{
+	overflow: hidden;
 }
 
 .logo{
@@ -113,7 +119,7 @@ li.dropdown.active{
 }
 
 .banner-btn-grp{
-	width: 434px;
+	max-width: 434px; 
 	margin: 0 auto;
 	padding-bottom: 10px;
 }
@@ -247,9 +253,9 @@ li.dropdown.active{
 }
 
 .blogpost{
-	background: url(../images/blogpost-background-inactive.png);
+/*	background: url(../images/blogpost-background-inactive.png);
 	background-repeat: no-repeat;
-	background-position: 30px bottom;
+	background-position: 30px bottom;*/
 	width: 31.45299145299145%;
 	float: left;
 }
@@ -257,10 +263,10 @@ li.dropdown.active{
 .blogpost.center{
 	padding-left: 2.564102564102564%; /*30/1170 2.564102564102564%*/
 	padding-right: 2.564102564102564%;
-	background-position: 60px bottom;
+	background-position: 60px bottom; /*60/1170 5.128205128205128%*/
 }
 
-.blogpost:hover {
+.blogpost:hover .desc {
 	background: url(../images/blogpost-background-active.png);
 	background-repeat: no-repeat;
 	background-position: 30px bottom;
@@ -370,6 +376,9 @@ li.dropdown.active{
 	padding-top: 19px;
 	padding-left: 30px;
 	padding-right: 40px;
+	background: url(../images/blogpost-background-inactive.png);
+	background-repeat: no-repeat;
+	background-position: 30px bottom;
 }
 
 .blogpost .desc h1{
