@@ -29,6 +29,7 @@ div.frame .slider-strip {
 }
 
 div.frame .slider-strip .slider-img {
+	position: relative;
 /*	max-width: 100%;
 	height: auto*/;
 	float: left;
@@ -37,6 +38,53 @@ div.frame .slider-strip .slider-img {
 div.frame .slider-strip .slider-img img {
 	max-width: 100%;
 	height: auto;
+}
+
+div.frame .slider-strip .slider-img .slide-content {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	top:26%;
+	left: 20%;
+	width: 580px;
+	padding: 10px;
+}
+
+div.frame .slide-content .desc {
+	font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  padding-top: 18px;
+  padding-bottom: 34px;
+}
+
+div.frame .slide-content .btn-slider-content {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	background: #e5493a;
+	line-height: 52px;
+	font-weight: bold;	
+	text-align: center;
+	overflow: hidden;
+	color: white;
+	float: left;
+	margin-top: 15px;
+	width: 170px;
+	height: 54px;
+	border-radius: 8px;
+}
+
+div.frame .slide-content .heading {
+	font-size: 72px;
+	font-weight: 900;
+	color: black;
+}
+
+div.frame .slide-content .second-line {
+	font-weight: 700;
+	font-size: 52px;
+}
+
+div.frame .slide-content .highlight {
+	color: #e5493a ;
 }
 
 div.frame .btn-prev {
@@ -72,7 +120,7 @@ div.frame .btn-next:hover {
 div.ticker{
 	position: absolute;
 	top:90%;
-	left:45%;
+	left:48%;
 }
 
 div.ticker li{

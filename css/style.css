@@ -134,14 +134,14 @@ li.dropdown.active{
 	color: white;
 	float: left;
 	margin:15px;
-	width: 166px;
-	height: 50px;
-	border: 4px solid white;
+	width: 168px;
+	height: 52px;
+	border: 2px solid white;
 	border-radius: 8px;
 }
 
 .banner-btn:hover{
-	border: 4px solid black;
+	border: 2px solid black;
 	background: black;
 }
 

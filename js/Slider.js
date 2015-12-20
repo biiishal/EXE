@@ -61,6 +61,7 @@ var onNextBtnClick = function() {
 	clearTimeout(slideTimeout);
 	clearInterval(intervalId);
 	active == slides.length-1 ? active = 0 : active++;
+	bulletChanger();
 	mlFinal = imgWidth * active * -1;	
 	animate(500);
 }
@@ -69,6 +70,7 @@ var onPrevBtnClick = function() {
 	clearTimeout(slideTimeout);
 	clearInterval(intervalId);
 	active == 0 ? active = slides.length-1 : active--;
+	bulletChanger();
 	mlFinal = imgWidth * active * -1;	
 	animate(500);
 }
