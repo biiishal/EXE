@@ -19,23 +19,73 @@ div.slider-container {
 
 div.frame {
 	margin: 0 auto;
+	position: relative;
 	max-width: 100%;
 	overflow: hidden;
 }
 
-div.slider-strip {
+div.frame .slider-strip {
 	min-width: 10000px;
 }
 
-div.slider-img {
-	max-width: 100%;
-	height: auto;
+div.frame .slider-strip .slider-img {
+/*	max-width: 100%;
+	height: auto*/;
 	float: left;
 }
 
-div.slider-img img {
+div.frame .slider-strip .slider-img img {
 	max-width: 100%;
 	height: auto;
+}
+
+div.frame .btn-prev {
+	position: absolute;
+	height: 42px;
+	width: 42px;
+	top: 46.5%;
+	left: 5.3%;
+	background: url(../images/btn-prev-inactive.png);
+	background-repeat: no-repeat;
+}
+
+div.frame .btn-prev:hover {
+	background: url(../images/btn-prev-active.png);
+	background-repeat: no-repeat;
+}
+
+div.frame .btn-next {
+	position: absolute;
+	height: 42px;
+	width: 42px;
+	top: 46.5%;
+	right: 5.3%;
+	background: url(../images/btn-next-inactive.png);
+	background-repeat: no-repeat;
+}
+
+div.frame .btn-next:hover {
+	background: url(../images/btn-next-active.png);
+	background-repeat: no-repeat;
+}
+
+div.ticker{
+	position: absolute;
+	top:90%;
+	left:45%;
+}
+
+div.ticker li{
+	list-style: none;
+	float: left;
+	padding: 8px;
+	background: url(../images/bullet-inactive.png);
+	background-repeat: no-repeat;
+}
+
+div.ticker li.active{
+	background: url(../images/bullet-active.png);
+	background-repeat: no-repeat;
 }
 
 
