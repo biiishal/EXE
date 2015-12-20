@@ -1,0 +1,42 @@
+/*.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+div.slider-wrp {
+	width: 100%;
+	background: red;
+}
+
+div.slider-container {
+	max-width: 120em;
+	margin: 0 auto;
+}*/
+
+div.frame {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+div.slider-strip {
+	min-width: 10000px;
+}
+
+div.slider-img {
+	max-width: 100%;
+	height: auto;
+	float: left;
+}
+
+div.slider-img img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+

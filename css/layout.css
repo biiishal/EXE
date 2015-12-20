@@ -24,13 +24,13 @@
 
 .slider-wrp{
 	width: 100%;
-	background: gray;
+	background: white;
 }
 
 .slider-container{
-	max-width: 100%;
+	max-width: 120em;
 	margin: 0 auto;
-	height: 707px;
+	/*height: 707px;*/
 }
 
 .banner-wrp{
