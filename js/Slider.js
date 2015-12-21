@@ -44,7 +44,6 @@ slideTimeout = setTimeout(slide, 3000);
 var animate = function(duration) {
 	var counter = 0;
 	var step = (mlFinal - mlCurrent)/(duration/fps);
-	console.log('active', active);
 
 	intervalId = setInterval(function(){
 		counter++;
