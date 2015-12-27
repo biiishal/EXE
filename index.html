@@ -509,10 +509,13 @@
         var scrollInterval = setInterval(function(){
           if(i >= 0) {
           window.scrollTo(0, i);
-          i -= 50;
+          i -= 50;console.log(window.pageYOffset || document.documentElement.scrollTop);
         }
-        else clearInterval(scrollInterval);
+        else {
+          window.scrollTo(0, 0);
+          clearInterval(scrollInterval)};
         }, 10);
+
       }
 
     </script>
