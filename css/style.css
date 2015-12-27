@@ -600,6 +600,12 @@ li.dropdown.active{
 	float: left;
 	height: 19px;
 	width: 19px;
+	background-image: url('../images/twitter-icon-round-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li:hover .twit-twitter-icon{
+	background-image: url('../images/twitter-icon-round-active.png');
 }
 
 .footer-section ul li .twit {
