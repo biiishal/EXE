@@ -447,6 +447,10 @@ li.dropdown.active{
 	color:white;
 }
 
+.footer-section img {
+	max-width: 100%;
+}
+
 .footer-section .email {
 	color:#e5493a;
 }
@@ -592,7 +596,7 @@ li.dropdown.active{
 	padding-bottom: 7px;
 }
 
-.footer-section ul li .twitter-icon {
+.footer-section ul li .twit-twitter-icon {
 	float: left;
 	height: 19px;
 	width: 19px;
@@ -610,7 +614,6 @@ li.dropdown.active{
 
 .footer-section ul li .contact-heading p {
 	color: #5e5e5e;
-
 }
 
 .footer-section ul li .contact-detail {
@@ -630,4 +633,141 @@ li.dropdown.active{
 	padding-left: 45px;
 }
 
+.footer-section ul li .contact-detail .icon-grp .icon {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin:2px;
+}
+
+.footer-section ul li .contact-detail .icon-grp .fb-icon {
+	background-image: url('../images/facebook-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .fb-icon:hover {
+	background-image: url('../images/facebook-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .twitter-icon {
+	background-image: url('../images/twitter-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .twitter-icon:hover {
+	background-image: url('../images/twitter-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .tumblr-icon {
+	background-image: url('../images/tumblr-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .tumblr-icon:hover {
+	background-image: url('../images/tumblr-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .linkedin-icon {
+	background-image: url('../images/linkedin-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .linkedin-icon:hover {
+	background-image: url('../images/linkedin-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .googleplus-icon {
+	background-image: url('../images/googleplus-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .googleplus-icon:hover {
+	background-image: url('../images/googleplus-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .vimeo-icon {
+	background-image: url('../images/vimeo-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .vimeo-icon:hover {
+	background-image: url('../images/vimeo-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .pinterest-icon {
+	background-image: url('../images/pinterest-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .pinterest-icon:hover {
+	background-image: url('../images/pinterest-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .blogger-icon {
+	background-image: url('../images/blogger-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .blogger-icon:hover {
+	background-image: url('../images/blogger-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .eyes-icon {
+	background-image: url('../images/eyes-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .eyes-icon:hover {
+	background-image: url('../images/eyes-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .ball-icon {
+	background-image: url('../images/ball-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .ball-icon:hover {
+	background-image: url('../images/ball-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .ohm-icon {
+	background-image: url('../images/ohm-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .ohm-icon:hover {
+	background-image: url('../images/ohm-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .bird-icon {
+	background-image: url('../images/bird-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .bird-icon:hover {
+	background-image: url('../images/bird-icon-active.png');
+}
+
+.footer-section ul li .contact-detail .icon-grp .rss-icon {
+	background-image: url('../images/rss-icon-inactive.png');
+	background-repeat: no-repeat;
+}
+
+.footer-section ul li .contact-detail .icon-grp .rss-icon:hover {
+	background-image: url('../images/rss-icon-active.png');
+}
+
+.btn-scroll-up {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	height: 49px;
+	width: 49px;
+	background-image: url(../images/btn-scroll-up-inactive.png);
+	background-repeat: no-repeat;
+}
+
+.btn-scroll-up:hover {
+	background-image: url(../images/btn-scroll-up-active.png);
+}
 

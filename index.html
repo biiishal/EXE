@@ -367,7 +367,7 @@
               <div class = "heading">Twitter Widget</div>
               <ul>
                 <li class = "clearfix">
-                  <div class = "twitter-icon">
+                  <div class = "twit-twitter-icon">
                     <img src="images/twitter-icon-round-inactive.png" alt="">
                   </div>
                   <div class = "twit">
@@ -377,7 +377,7 @@
                   </div>
                 </li>
                 <li class = "clearfix">
-                  <div class = "twitter-icon">
+                  <div class = "twit-twitter-icon">
                     <img src="images/twitter-icon-round-inactive.png" alt="">
                   </div>
                   <div class = "twit">
@@ -387,7 +387,7 @@
                   </div>
                 </li>
                 <li class = "clearfix">
-                  <div class = "twitter-icon">
+                  <div class = "twit-twitter-icon">
                     <img src="images/twitter-icon-round-inactive.png" alt="">
                   </div>
                   <div class = "twit">
@@ -397,7 +397,7 @@
                   </div>
                 </li>
                 <li class = "clearfix">
-                  <div class = "twitter-icon">
+                  <div class = "twit-twitter-icon">
                     <img src="images/twitter-icon-round-inactive.png" alt="">
                   </div>
                   <div class = "twit">
@@ -407,7 +407,7 @@
                   </div>
                 </li>
                 <li class = "clearfix">
-                  <div class = "twitter-icon">
+                  <div class = "twit-twitter-icon">
                     <img src="images/twitter-icon-round-inactive.png" alt="">
                   </div>
                   <div class = "twit">
@@ -466,19 +466,19 @@
                  
                     <div class = "contact-detail"> 
                       <div class = "icon-grp">
-                        <a href="#"><img class = "fb-icon" src="images/facebook-icon-inactive.png" alt="fb-icon"></a>
-                        <a href="#"><img class = "twitter-icon" src="images/twitter-icon-inactive.png" alt="twitter-icon"></a>
-                        <a href="#"><img class = "tumblr-icon" src="images/tumblr-icon-inactive.png" alt="tumblr-icon"></a>
-                        <a href="#"><img class = "linkedin-icon" src="images/linkedin-icon-inactive.png" alt="linkedin-icon"></a>
-                        <a href="#"><img class = "googleplus-icon" src="images/googleplus-icon-inactive.png" alt="googleplus-icon"></a>
-                        <a href="#"><img class = "vimeo-icon" src="images/vimeo-icon-inactive.png" alt="vimeo-icon"></a>
-                        <a href="#"><img class = "pinterest-icon" src="images/pinterest-icon-inactive.png" alt="pinterest-icon"></a>
-                        <a href="#"><img class = "blogger-icon" src="images/blogger-icon-inactive.png" alt="blogger-icon"></a>
-                        <a href="#"><img class = "eyes-icon" src="images/eyes-icon-inactive.png" alt="eyes-icon"></a>
-                        <a href="#"><img class = "ball-icon" src="images/ball-icon-inactive.png" alt="ball-icon"></a>
-                        <a href="#"><img class = "ohm-icon" src="images/ohm-icon-inactive.png" alt="ohm-icon"></a>
-                        <a href="#"><img class = "bird-icon" src="images/bird-icon-inactive.png" alt="bird-icon"></a>
-                        <a href="#"><img class = "rss-icon" src="images/rss-icon-inactive.png" alt="rss-icon"></a>
+                        <a href="#"><div class = "icon fb-icon"></div></a>
+                        <a href="#"><div class = "icon twitter-icon"></div></a>
+                        <a href="#"><div class = "icon tumblr-icon"></div></a>
+                        <a href="#"><div class = "icon linkedin-icon"></div></a>
+                        <a href="#"><div class = "icon googleplus-icon"></div></a>
+                        <a href="#"><div class = "icon vimeo-icon"></div></a>
+                        <a href="#"><div class = "icon pinterest-icon"></div></a>
+                        <a href="#"><div class = "icon blogger-icon"></div></a>
+                        <a href="#"><div class = "icon eyes-icon"></div></a>
+                        <a href="#"><div class = "icon ball-icon"></div></a>
+                        <a href="#"><div class = "icon ohm-icon"></div></a>
+                        <a href="#"><div class = "icon bird-icon"></div></a>
+                        <a href="#"><div class = "icon rss-icon"></div></a>
                       </div>                      
                     </div>
                   
@@ -486,6 +486,7 @@
               </ul>
             </div>
           </div>
+          <div onclick = "scrollUp()" class = "btn-scroll-up" ></div>
         </div>
       </div>
     </div>
@@ -502,6 +503,17 @@
       counter2.setCounter("counter2", 750, 200); 
       counter3.setCounter("counter3", 750, 5076); 
       counter4.setCounter("counter4", 750, 1734); 
+
+      function scrollUp() {
+        var i = window.pageYOffset || document.documentElement.scrollTop;
+        var scrollInterval = setInterval(function(){
+          if(i >= 0) {
+          window.scrollTo(0, i);
+          i -= 50;
+        }
+        else clearInterval(scrollInterval);
+        }, 10);
+      }
 
     </script>
 	</body>
