@@ -20,18 +20,17 @@ a {
 	overflow: hidden;
 }
 
-.desc p{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	font-size: 13px;
-	color: #959595;
-	text-align: center;
-	padding-bottom: 32px;
-	padding-left: 4px;
+.desc p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #959595;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-left: 4px;
   padding-right: 4px;
   overflow: hidden;
-	/*padding-left: 19px;
-	padding-right: 20px;*/
+  line-height: 20px;
 }
 
 .number{
@@ -52,25 +51,27 @@ a {
 	padding-top: 0.46875%;
 }
 
-.menu li{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size: 12px;
-	list-style: none;
-	float: left;
-	padding-left: 36px;
-	padding-right: 14px;
-	line-height: 41px;
+.menu li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    word-spacing: 2px;
+    list-style: none;
+    float: left;
+    padding-left: 33px;
+    padding-right: 15px;
+    line-height: 41px;
 }
 
 .menu li:hover{
 	color:#e5493a;
 }
 
-.menu .li-active{
-	position: absolute;
-	width: 8px;
-	border: 1px solid #e5493a;
+.menu .li-active {
+    position: absolute;
+    width: 6px;
+    top: 33px;
+    border: 1px solid #e5493a;
 }
 
 .menu li.active{
@@ -101,27 +102,34 @@ li.dropdown.active{
 	background-position: bottom;
 }
 
+.banner-lower {
+	padding-top: 28px;
+}
+
 .banner{
 	line-height: 39px;
 }
 
-.banner-container .banner p{
-	text-align: center;
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	font-size: 24px;
+.banner-container .banner p {
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  word-spacing: 8px;
 }
 
-.banner-container .banner p.banner-heading{
-	font-weight: 700;
-	font-size: 34px;
+.banner-container .banner p.banner-heading {
+  font-weight: 700;
+  font-size: 30px;
+  word-spacing: 2px;
 }
 
-.banner-btn-grp{
-	max-width: 434px; 
-	margin: 0 auto;
-	padding-bottom: 10px;
+.banner-btn-grp {
+  max-width: 434px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 22px;
 }
 
 .banner-btn{
@@ -231,7 +239,7 @@ li.dropdown.active{
 .counter .number{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 42px;
 	color: white;
 	text-align: center;
 }
@@ -242,14 +250,17 @@ li.dropdown.active{
 	background-position: bottom;, center;
 }
 
-.latest-blogposts .desc h1{
-	font-weight: 700;
-	font-size: 24px;
-	color: black;
+.latest-blogposts .desc h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  padding-top: 64px;
 }
 
-.latest-blogposts .desc p{
-	padding-bottom: 32px;
+.latest-blogposts .desc p {
+  padding-bottom: 26px;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .blogpost{
@@ -370,6 +381,7 @@ li.dropdown.active{
 	font-size: 13px;
 	color: #dddddd;
 	padding-bottom: 0px;
+	padding-top: 10px;
 }
 
 .blogpost .desc{
@@ -381,10 +393,12 @@ li.dropdown.active{
 	background-position: 30px bottom;
 }
 
-.blogpost .desc h1{
-	padding-top: 19px;
-	text-align: left;
-	color: #343434;
+.blogpost .desc h1 {
+  padding-top: 16px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: #343434;
 }
 
 .blogpost .desc p{
@@ -393,8 +407,9 @@ li.dropdown.active{
  	padding-right: 0;
 }
 
-.blogpost .desc p.read-more{
-	color: black;
+.blogpost .desc p.read-more {
+  color: black;
+  padding-bottom: 26px;
 }
 
 .blogpost:hover h1{

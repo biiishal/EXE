@@ -20,7 +20,7 @@ div.slider-container {
 div.frame {
 	margin: 0 auto;
 	position: relative;
-	max-width: 100%;
+	max-width: 1920px;
 	overflow: hidden;
 }
 
@@ -30,8 +30,8 @@ div.frame .slider-strip {
 
 div.frame .slider-strip .slider-img {
 	position: relative;
-/*	max-width: 100%;
-	height: auto*/;
+	max-width: 100%;
+	height: auto;
 	float: left;
 }
 
