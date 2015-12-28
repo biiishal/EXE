@@ -100,12 +100,14 @@ li.dropdown.active{
 	background: url(../images/banner1-background-arrow.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
+	padding-top: 36px;
+	padding-bottom: 44px;
 }
 
 .banner-lower {
-	padding-top: 28px;
+  padding-top: 66px;
+  padding-bottom: 54px;
 }
-
 .banner{
 	line-height: 39px;
 }
@@ -126,10 +128,10 @@ li.dropdown.active{
 }
 
 .banner-btn-grp {
-  max-width: 434px;
+  max-width: 409px;
   margin: 0 auto;
   padding-bottom: 10px;
-  padding-top: 22px;
+  padding-top: 15px;
 }
 
 .banner-btn{
@@ -429,10 +431,10 @@ li.dropdown.active{
 }
 
 .footer-section {
-	width: 22.99145299145299%;
-	float: left;
-	padding-right: 1.709401709401709%; /*20px of 1170*/
-	overflow: hidden;
+  width: 21.991453%;
+  float: left;
+  padding-right: 3.709402%;
+  overflow: hidden;
 }
 
 .footer-section:last-child {
@@ -447,7 +449,7 @@ li.dropdown.active{
 	background: url(../images/footer-heading-background.png);
 	background-repeat: no-repeat;
 	background-position: left bottom 10px;
-	padding-bottom: 38px;
+	padding-bottom: 34px;
 }
 
 .footer-section p{
@@ -471,21 +473,22 @@ li.dropdown.active{
 }
 
 .footer-section .company-info {
-	padding-top: 35px;
-	padding-bottom: 47px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	color: #4e4e4e;
+  padding-top: 35px;
+  padding-bottom: 41px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #4e4e4e;
+  line-height: 19px;
 }
 
 .footer-section .company-info .read-more {
-	color: #e5493a;
-	padding-top: 27px;
+  color: #e5493a;
+  padding-top: 18px;
 }
 
 .footer-section .newsletter .newsletter-heading {
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .footer-section .newsletter .email-input {
