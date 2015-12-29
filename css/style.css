@@ -106,7 +106,7 @@ li.dropdown.active{
 
 .banner-lower {
   padding-top: 66px;
-  padding-bottom: 54px;
+  padding-bottom: 55px;
 }
 .banner{
 	line-height: 39px;
@@ -264,7 +264,7 @@ li.dropdown.active{
 
 .latest-blogposts .desc p {
   padding-bottom: 26px;
-  width: 40%;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -441,6 +441,11 @@ li.dropdown.active{
   overflow: hidden;
 }
 
+.footer-section.twitter-widget {
+	width: 21.991453%;
+	padding-right: 3.6%;
+}
+
 .footer-section:last-child {
 	padding-right: 0px;
 }
@@ -461,7 +466,7 @@ li.dropdown.active{
 	font-weight: 400;
 	font-size: 14px;
 	color: #959595;
-	line-height: 18px;
+	line-height: 19px;
 }
 
 .footer-section p a {
@@ -478,7 +483,7 @@ li.dropdown.active{
 
 .footer-section .company-info {
   padding-top: 32px;
-  padding-bottom: 36px;
+  padding-bottom: 38px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #4e4e4e;
@@ -500,7 +505,7 @@ li.dropdown.active{
 	width: 270px;
 	font-family: 'Roboto', sans-serif;
 	padding-bottom: 19px;
-	padding-top: 23px;
+	padding-top: 21px;
 }
 
 .footer-section .newsletter .email-input input {
@@ -513,7 +518,7 @@ li.dropdown.active{
 	background-repeat: no-repeat;
 	background-position: 95%;
 	color: #4e4e4e;
-	text-indent: 10px;
+	text-indent: 20px;
 	font-weight: 500;
 }
 
@@ -527,12 +532,13 @@ li.dropdown.active{
 
 .footer-section ul li {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 18px;
 	border-bottom: 1px #363636 solid;
 }
 
 .footer-section ul li:last-child {
 	border: none;
+	padding-top: 22px;
 }
 
 .footer-section ul li .profile-img {
@@ -612,10 +618,10 @@ li.dropdown.active{
 }
 
 
-.footer-section ul li .date p{
-	color: #464646;
-	padding-top: 16px;
-	padding-bottom: 7px;
+.footer-section ul li .date p {
+  color: #464646;
+  font-size: 12px;
+  padding-top: 13px;
 }
 
 .footer-section ul li .twit-twitter-icon {
@@ -636,7 +642,7 @@ li.dropdown.active{
 }
 
 .footer-section ul li .contact-heading {
-	width: 25%;
+	width: 20%;
 	float: left;
 }
 
@@ -645,7 +651,7 @@ li.dropdown.active{
 }
 
 .footer-section ul li .contact-detail {
-	width: 75%;
+	width: 80%;
 	float: right;
 }
 

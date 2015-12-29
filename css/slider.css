@@ -43,8 +43,8 @@ div.frame .slider-strip .slider-img img {
 div.frame .slider-strip .slider-img .slide-content {
 	position: absolute;
 	font-family: 'Raleway', sans-serif;
-	top:26%;
-	left: 20%;
+	top:25%;
+	left: 19%;
 	width: 580px;
 	padding: 10px;
 }
@@ -52,8 +52,8 @@ div.frame .slider-strip .slider-img .slide-content {
 div.frame .slide-content .desc {
 	font-family: 'Roboto', sans-serif;
   font-size: 28px;
-  padding-top: 18px;
-  padding-bottom: 34px;
+  padding-top: 26px;
+  padding-bottom: 38px;
 }
 
 div.frame .slide-content .btn-slider-content {
@@ -76,11 +76,14 @@ div.frame .slide-content .heading {
 	font-size: 72px;
 	font-weight: 900;
 	color: black;
+	word-spacing: -16px;
 }
 
 div.frame .slide-content .second-line {
-	font-weight: 700;
-	font-size: 52px;
+  font-weight: 700;
+  font-size: 52px;
+  word-spacing: -4px;
+  line-height: 52px;
 }
 
 div.frame .slide-content .highlight {
