@@ -117,13 +117,13 @@ li.dropdown.active{
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 22px;
-  word-spacing: 8px;
+  font-size: 24px;
+  word-spacing: 2px;
 }
 
 .banner-container .banner p.banner-heading {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 31px;
   word-spacing: 2px;
 }
 
@@ -157,7 +157,6 @@ li.dropdown.active{
 
 .service{
 	float: left;
-	width: 25%;
 }
 
 .service .desc{
@@ -183,6 +182,7 @@ li.dropdown.active{
 	background: url(../images/clean-design-background-inactive.png);
 	background-repeat: no-repeat;
 	background-position: top, center;
+	width: 23%;
 }
 
 .clean-design:hover{
@@ -195,6 +195,7 @@ li.dropdown.active{
 	background: url(../images/branding-background-inactive.png);
 	background-repeat: no-repeat;
 	background-position: top, center;
+	width: 28%;
 }
 
 .branding:hover{
@@ -207,6 +208,7 @@ li.dropdown.active{
 	background: url(../images/responsive-background-inactive.png);
 	background-repeat: no-repeat;
 	background-position: top, center;
+	width: 24%;
 }
 
 .responsive:hover{
@@ -219,6 +221,7 @@ li.dropdown.active{
 	background: url(../images/development-background-inactive.png);
 	background-repeat: no-repeat;
 	background-position: top, center;
+	width: 25%;
 }
 
 .development:hover{
@@ -241,7 +244,7 @@ li.dropdown.active{
 .counter .number{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	font-size: 42px;
+	font-size: 47px;
 	color: white;
 	text-align: center;
 }
@@ -380,10 +383,11 @@ li.dropdown.active{
 .blogpost p.add-info{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 14px;
 	color: #dddddd;
 	padding-bottom: 0px;
 	padding-top: 10px;
+	word-spacing: 4px;
 }
 
 .blogpost .desc{
@@ -431,9 +435,9 @@ li.dropdown.active{
 }
 
 .footer-section {
-  width: 21.991453%;
+  width: 22.991453%;
   float: left;
-  padding-right: 3.709402%;
+  padding-right: 2.709402%;
   overflow: hidden;
 }
 
@@ -473,12 +477,12 @@ li.dropdown.active{
 }
 
 .footer-section .company-info {
-  padding-top: 35px;
-  padding-bottom: 41px;
+  padding-top: 32px;
+  padding-bottom: 36px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #4e4e4e;
-  line-height: 19px;
+  line-height: 20px;
 }
 
 .footer-section .company-info .read-more {
