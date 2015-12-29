@@ -68,7 +68,6 @@ a {
 }
 
 .menu .li-active {
-    position: absolute;
     width: 6px;
     top: 33px;
     border: 1px solid #e5493a;
