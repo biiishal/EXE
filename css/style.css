@@ -237,7 +237,7 @@ li.dropdown.active{
 .counter .desc{
 	background: url(../images/counter-background.png);
 	background-repeat: no-repeat;
-	background-position: bottom;, center;
+	background-position: bottom;
 }
 
 .counter .number{
@@ -251,7 +251,7 @@ li.dropdown.active{
 .latest-blogposts{
 	background: url(../images/latest-blogposts-background.png);
 	background-repeat: no-repeat;
-	background-position: bottom;, center;
+	background-position: bottom;
 }
 
 .latest-blogposts .desc h1 {
