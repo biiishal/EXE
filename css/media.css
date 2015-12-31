@@ -222,5 +222,31 @@
     height: 30px;
     line-height: 30px;
 	}
+
+	.blogpost .poster .poster-overlay {
+		width: 370px;
+	}
 }
 
+@media screen and (max-width: 412px) {
+	.slider-wrp {
+		display: none;
+	}
+
+	.latest-blogposts .desc p{
+		width: 100%;
+	}
+
+	div.frame {
+		max-width: 412px;
+	}
+
+	div.frame .slider-strip .slider-img img {
+		max-width: 412px;
+		height: auto;
+	}
+
+	.blogpost .poster .poster-overlay {
+		width: 370px;
+	}
+}
