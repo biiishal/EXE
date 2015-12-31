@@ -258,9 +258,6 @@
 }
 
 @media screen and (max-width: 412px) {
-	.slider-wrp {
-		display: none;
-	}
 
 	div.frame {
 		max-width: 412px;
