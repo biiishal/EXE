@@ -435,7 +435,7 @@ li.dropdown.active{
 
 .footer-section {
   width: 21.991453%;
-  float: right;
+  float: left;
   padding-right: 2.709402%;
   overflow: hidden;
 }
@@ -536,6 +536,7 @@ li.dropdown.active{
 }
 
 .footer-section ul li:last-child {
+	border: none;
 	padding-top: 22px;
 }
 
