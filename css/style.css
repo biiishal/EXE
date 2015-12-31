@@ -434,13 +434,13 @@ li.dropdown.active{
 }
 
 .footer-section {
-  width: 22.991453%;
+  width: 21.991453%;
   float: left;
   padding-right: 2.709402%;
   overflow: hidden;
 }
 
-.footer-section.twitter-widget {
+.footer-section .twitter-widget {
 	width: 21.991453%;
 	padding-right: 3.6%;
 }
@@ -501,7 +501,7 @@ li.dropdown.active{
 
 .footer-section .newsletter .email-input {
 	height: 42px;
-	width: 270px;
+	max-width: 270px;
 	font-family: 'Roboto', sans-serif;
 	padding-bottom: 19px;
 	padding-top: 21px;
@@ -509,7 +509,7 @@ li.dropdown.active{
 
 .footer-section .newsletter .email-input input {
 	height: 42px;
-	width: 270px;
+	width: 100%;
 	border-style: none;
 	border-radius: 4px;
 	background-color: #171717;
@@ -790,10 +790,10 @@ li.dropdown.active{
 	background-image: url('../images/rss-icon-active.png');
 }
 
-.btn-scroll-up {
-	position: absolute;
+#btn-scroll-up {
+	position: fixed;
 	right: 5%;
-	top: 30%;
+	bottom: 30%;
 	height: 49px;
 	width: 49px;
 	background-image: url(../images/btn-scroll-up-inactive.png);
