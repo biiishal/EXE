@@ -60,6 +60,14 @@
 }
 
 @media screen and (max-width: 944px) {
+	.blogpost .poster .search {
+  left: 32%;
+	}
+
+	.blogpost .poster .share {
+  right: 33%;
+	}
+
 	.menu li {
     padding-left: 25px;
     padding-right: 10px;
@@ -96,6 +104,15 @@
 }
 
 @media screen and (max-width: 768px) {
+	.blogpost .poster .search {
+  left: 26.5%;
+	}
+
+	.blogpost .poster .share {
+  right: 28%;
+	}
+
+
 	.logo img {
     max-width: 80px;
     height: auto;
