@@ -156,19 +156,52 @@
 }
 
 @media screen and (max-width: 545px) {
+	.desc p {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
 	.service {
-		width: 98%;
-		padding: 1%;
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 
 	.counter {
-		width: 98%;
-		padding:1%;
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.banner-btn {
+		width: 140px;
+	}
+
+	.services-grp {
+		padding-bottom: 0px
+	}
+
+	.blogposts-grp {
+		padding-bottom: 0px;
+	}
+
+	.blogpost {
+		width:100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 8px;
+	}
+
+	.blogpost.center{
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	.footer-section {
-		width: 98%;
-		padding: 1%;
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 
 	.footer-section.latest-news {
@@ -179,9 +212,9 @@
 		display: none;
 	}
 
-	.blogpost {
-		width: 98%;
-		padding: 1%;
+	.counter {
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 
 	div.frame {
@@ -222,19 +255,11 @@
     height: 30px;
     line-height: 30px;
 	}
-
-	.blogpost .poster .poster-overlay {
-		width: 370px;
-	}
 }
 
 @media screen and (max-width: 412px) {
 	.slider-wrp {
 		display: none;
-	}
-
-	.latest-blogposts .desc p{
-		width: 100%;
 	}
 
 	div.frame {

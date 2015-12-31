@@ -39,7 +39,7 @@ var slide = function() {
 	animate(500);
 }
 bulletChanger();
-//slideTimeout = setTimeout(slide, 3000);
+slideTimeout = setTimeout(slide, 3000);
 
 var animate = function(duration) {
 	var counter = 0;

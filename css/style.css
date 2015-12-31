@@ -263,7 +263,7 @@ li.dropdown.active{
 
 .latest-blogposts .desc p {
   padding-bottom: 26px;
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -298,6 +298,12 @@ li.dropdown.active{
 .blogpost .poster img{
 	position: relative;
 	max-width: 100%;
+	height: auto;
+}
+
+
+.blogpost .poster .poster-img{
+	width: 100%;
 	height: auto;
 }
 
