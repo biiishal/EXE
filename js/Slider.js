@@ -4,7 +4,7 @@ var btnNext = document.getElementsByClassName('btn-next')[0];
 var btnPrev = document.getElementsByClassName('btn-prev')[0];
 var bullet = document.getElementsByClassName('bullet')[0];
 var active = 0;
-var imgWidth = slides[0].clientWidth;
+var imgWidth;
 var fps = 10;
 var mlCurrent = 0;
 var mlFinal = 0;
@@ -30,6 +30,7 @@ var bulletChanger = function(){
 		document.getElementById(i+'bullet').className= '';
 	}
 	document.getElementById(active+'bullet').className = 'active';
+	imgWidth = slides[0].clientWidth;
 }
 
 var slide = function() {
