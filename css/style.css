@@ -435,7 +435,7 @@ li.dropdown.active{
 
 .footer-section {
   width: 21.991453%;
-  float: left;
+  float: right;
   padding-right: 2.709402%;
   overflow: hidden;
 }
@@ -501,7 +501,7 @@ li.dropdown.active{
 
 .footer-section .newsletter .email-input {
 	height: 42px;
-	max-width: 270px;
+	max-width: 245px;
 	font-family: 'Roboto', sans-serif;
 	padding-bottom: 19px;
 	padding-top: 21px;
@@ -536,7 +536,6 @@ li.dropdown.active{
 }
 
 .footer-section ul li:last-child {
-	border: none;
 	padding-top: 22px;
 }
 
@@ -800,7 +799,7 @@ li.dropdown.active{
 	background-repeat: no-repeat;
 }
 
-.btn-scroll-up:hover {
+#btn-scroll-up:hover {
 	background-image: url(../images/btn-scroll-up-active.png);
 }
 
