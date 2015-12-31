@@ -798,6 +798,7 @@ li.dropdown.active{
 
 #btn-scroll-up {
 	position: fixed;
+	display: none;
 	right: 5%;
 	bottom: 30%;
 	height: 49px;
